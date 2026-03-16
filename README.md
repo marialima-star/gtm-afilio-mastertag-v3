@@ -9,4 +9,4 @@
 
 ### Configuration
 
-![configuration screenshot]()
+![configuration screenshot](https://github.com/user-attachments/assets/9b8bfe06-2545-4177-bce9-ca351671e35e)
