@@ -89,7 +89,7 @@ log('data =', data);
 var id_campanha = makeString(data.id_campanha);
 var type = makeString(data.type);
 
-var url = 'https://m.afilio.com.br/v3/' + id_campanha + '/' + type;
+var url = 'https://mtag.afilio.com.br/v3/' + id_campanha + '/' + type;
 
 //Chame data.gtmOnSuccess depois que a tag for concluída.
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure);
@@ -130,7 +130,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://m.afilio.com.br/"
+                "string": "https://mtag.afilio.com.br/"
               }
             ]
           }
@@ -164,5 +164,3 @@ scenarios:
 ___NOTES___
 
 Created on 16/03/2026, 12:01:50
-
-
